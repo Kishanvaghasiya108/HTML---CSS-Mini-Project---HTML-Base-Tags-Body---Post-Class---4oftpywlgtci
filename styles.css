@@ -1,1 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Creepster', cursive;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5rem; 
+    width: 20vw;  
+    justify-content: space-between;
+ 
+    
+    
+}
+h1{
+    text-align: left;
+    margin-left: 5rem;
+}
+nav{
+    background-color: darkgrey;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border:2px solid white; */
+    /* border-radius: 100px; */
+    color: black;
+    
 
+    
+   
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+a:hover{
+    color: whitesmoke;
+}
+.details{
+    padding: 2rem;
+    background-color: black;
+    color: whitesmoke;
+    
+}
+.details > *{
+   text-align: center;
+    font-family: 'Griffy', cursive;
+}
+.parallax {
+   
+  
+    min-height: 500px; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h3{
+    padding-bottom: 1rem;
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+  .img-1{
+    background-image: url("https://source.unsplash.com/random/horror1");
+  }
+  .img-2{
+    background-image: url("https://source.unsplash.com/random/horror2");
+  }
+  .img-3{
+    background-image: url("https://source.unsplash.com/random/horror3");
+  }
+  .img-4{
+    background-image: url("https://source.unsplash.com/random/horror7");
+  }
+  .img-5{
+    background-image: url("https://source.unsplash.com/random/horror8");
+  }
+  .footer{
+    text-align: center;
+    font-family: 'Griffy', cursive;
+    padding: 2rem;
+  }
+  .footer >p{
+    text-transform: lowercase;
+  }
+  body::-webkit-scrollbar{
+    display: none;
+  }
