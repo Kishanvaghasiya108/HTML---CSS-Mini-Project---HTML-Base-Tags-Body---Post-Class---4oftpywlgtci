@@ -137,3 +137,6 @@ color: white;
     margin-left: 0;  
   }
 }
+span:hover{
+  color: aquamarine;
+}
